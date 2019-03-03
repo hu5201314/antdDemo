@@ -4,8 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+/* 全局引入 antd 样式 */
+import 'ant-design-vue/dist/antd.css'
 Vue.config.productionTip = false
 
+/* 引入 antd  插件 */
+Vue.use(Antd)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
