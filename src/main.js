@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Antd from 'ant-design-vue'
 
 /* 全局引入 antd 样式 */
 import 'ant-design-vue/dist/antd.css'
